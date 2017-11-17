@@ -2,13 +2,20 @@
 <head>
 
 <style>
-
+@media screen and (max-width: 699px) and (min-width: 520px) {
   body {
 
-    background-color: white;
-    background-image: url("background.jpg");
-     background-color: #cccccc;
+    background-color: #cccccc;
   }
+}
+@media screen and (min-width: 700px) {
+  body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+  }
+}
+
+
 
   p, li, td,tr {
 
@@ -24,22 +31,36 @@
    font-size: 30px;
 
  }
-a { color: green;
- font-weight: bold;
- font-size: 30px;
-}
+
+ a {
+   color: green;
+   font-weight: bold;
+   font-size: 30px;
+ }
+
+ .header1 {
+    color: white;
+ }
+
+ .header2 {
+   color: red;
+ }
+
+ .table {
+   width: 100%;
+ }
 </style>
 
 </head>
 
 <body>
-  <background-color: #fff;>
-  <background-image:background.jpg/>
-<h1 style="color:white;">losschmidtoberschule</h1>
- <img src="los.jpg"> <h1 style="color:white;">Projekt :) </h1>
+
+<h1 class="header1">losschmidtoberschule</h1>
+ <img src="los.jpg" />
+ <h1 class="header1">Projekt :) </h1>
 
 <hr/>
-<h1 style="color:red;">Othman Mohamads website</h1>
+<h1 class="header2">Othman Mohamads website</h1>
 <hr/>
 <p>welcome.</p>
 
@@ -55,9 +76,9 @@ a { color: green;
 <a href="second.html">don't click here!!!!!!!</a>
 <br/>
 <hr/>
-<h1 style="color:red;">3 students from v2</h1>
+<h1 class="header2">3 students from v2</h1>
 
-<table style="width:100%">
+<table class="table">
   <tr>
     <th>Firstname</th>
     <th>Lastname</th>
@@ -82,7 +103,7 @@ a { color: green;
 <hr/>
 
 <!--Lists -->
-<h1 style="color:red;">This is a List of Animals:</h1>
+<h1 class="header2">This is a List of Animals:</h1>
  </style>
 
  </style>
@@ -97,17 +118,17 @@ a { color: green;
       <a href="https://www.srf.ch/iapp/image/8331221/11/17_esel_geschichten_aus_aller_welt@1x.jpg">click here to see layth</a>
 <br/>
 <hr/>
-<h1 style="color:white;">A song from Eminem enjoy!</h1>
+<h1 class="header1">A song from Eminem enjoy!</h1>
 <video controls loop muted height="250" width="500">
     <source src="Eminem - Guts Over Fear ft. Sia.mp4" type="video/mp4">
 
 </video>
       <hr/>
-      <h1 style="color:white;">ENDE</h1>
-      <h1 style="color:red;">THANKS</h1>
-      <h1 style="color:white;">Othman Mohamad</h1>
+      <h1 class="header1">ENDE</h1>
+      <h1 class="header2">THANKS</h1>
+      <h1 class="header1">Othman Mohamad</h1>
 <hr/>
-      <p style="color:red;">KONTAKT!<p/>
+      <p class="header2">KONTAKT!<p/>
 <a href="https://www.instagram.com/melo.valdes/">visit me on Instagram</a>
 <br/>
 <a href="https://www.facebook.com/melo.vaded">visit me on Facebook</a>
