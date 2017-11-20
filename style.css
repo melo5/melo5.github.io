@@ -14,7 +14,7 @@ header, footer {
 }
 
   body {
-    background-image: url("background.jpg");
+    background-image: url("ebackground.jpg");
     background-color: #cccccc;
   }
 
@@ -22,18 +22,18 @@ header, footer {
 
 
 
-  p, li, td,tr {
+  p,li, td,tr {
 
-   color: white;
+   color: black;
    font-weight: bold;
    font-size: 28px;
 
  }
 
- th, {
-   color: grey;
+ th {
+   color: green;
    font-weight: bold;
-   font-size: 30px;
+   font-size: 35px;
 
  }
 
@@ -44,11 +44,11 @@ header, footer {
  }
 
  .header1 {
-    color: white;
+    color: black;
  }
 
  .header2 {
-   color: grey;
+   color: blue;
  }
 
  .table {
