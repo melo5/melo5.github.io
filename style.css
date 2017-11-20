@@ -1,0 +1,57 @@
+<style>
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+  body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+  }
+
+
+
+
+
+  p, li, td,tr {
+
+   color: white;
+   font-weight: bold;
+   font-size: 28px;
+
+ }
+
+ th, {
+   color: grey;
+   font-weight: bold;
+   font-size: 30px;
+
+ }
+
+ a {
+   color: red;
+   font-weight: bold;
+   font-size: 30px;
+ }
+
+ .header1 {
+    color: white;
+ }
+
+ .header2 {
+   color: grey;
+ }
+
+ .table {
+   width: 100%;
+ }
+</style>

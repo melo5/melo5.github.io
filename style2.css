@@ -1,0 +1,17 @@
+<style>
+
+body> {  background-image: url("vegetabackground.jpg");
+  background-color: #cccccc;
+}
+
+  h1.head1 {
+    color: red
+  }
+
+  a {
+    color: blue
+    font-weight: bold;
+    font-size: 30px;
+  }
+</body>
+</style>
