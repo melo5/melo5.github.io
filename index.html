@@ -9,6 +9,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link type="text/css" href="style.css" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="jquery.raptorize.1.0.js"></script>
+
+	<!-- For the button version -->
+	<script type="text/javascript">
+		$(function() {
+			$('.raptor').raptorize();
+      $(".btn_info").click(function(){
+          $(".schoolinfo").toggle();
+      });
+
+      $('#btn_sum').click(function(){
+
+          var zahl1 = parseInt($('#first_number').val());
+          var zahl2 = parseInt($('#second_number').val());
+
+          $('#result').val(zahl1+zahl2);
+      });
+
+      $('#btn_sum1').click(function(){
+
+            var zahl1 = parseInt($('#first_number').val());
+            var zahl2 = parseInt($('#second_number').val());
+
+            $('#result').val(zahl1-zahl2);
+      });
+
+      $('#btn_sum2').click(function(){
+
+              var zahl1 = parseInt($('#first_number').val());
+              var zahl2 = parseInt($('#second_number').val());
+
+              $('#result').val(zahl1*zahl2);
+      });
+
+      $('#btn_sum3').click(function(){
+
+          var zahl1 = parseInt($('#first_number').val());
+          var zahl2 = parseInt($('#second_number').val());
+
+          $('#result').val(zahl1/zahl2);
+
+      })
+  });
+  </script>
+
 </head>
 
 <body>
@@ -20,17 +67,48 @@
 
 <img src="los1.png" width="1317" height="200" />
 <p>☻ Welcome to my first website ☻ </p>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
+<hr/>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
+
+<button class="raptor">Click here for a suprise!</button>
 
 <p id="demo"></p>
 <marquee><h1>Othman Mohamad ✈</h1></marquee>
 <br/>
 <br/>
 <a href="http://www.loschmidt-oberschule.de/index.html">visit my School Website ツ </a>
+
+
+
+<button class="btn_info">Info about the school</button>
+
+<div class="schoolinfo">
+<p>The Loschmidt High School is a vocational school in Berlin-Charlottenburg..</p>
+<p>With us, young people who require special support at the start of their professional lives
+  are prepared and trained with innovative methods for their future employment.
+   For this purpose, we work closely with free bearers, vocational preparation, craft guilds and vocational education institutions.</p>
+ </div>
 <hr/>
 
+<div>
+  1.Zahl:
+<input name="first_number" id="first_number"></input>
+</div>
+<div>
+  2.Zahl:
+<input name="second_number" id="second_number"></input>
+</div>
+<div>
+  Resultat:
+<input name="result" id="result"></input>
+</div>
+<div>
+  <button id="btn_sum">+</button>
+  <button id="btn_sum1">-</button>
+  <button id="btn_sum2">*</button>
+  <button id="btn_sum3">/</button>
+</div>
 <a href="second.html">don't click here ☢☣</a>
 <br/>
 <hr/>
@@ -49,11 +127,11 @@ Click me to display Date and Time.</button>
   </tr>
   <tr>
     <td>Layth</td>
-    <td>Gabori</td>
+    <td>Algabori</td>
     <td>18</td>
   </tr>
   <tr>
-    <td>Mrley</td>
+    <td>Marley</td>
     <td>James</td>
     <td>17</td>
   </tr>
@@ -62,9 +140,6 @@ Click me to display Date and Time.</button>
 
 <!--Lists -->
 <h1 class="header2">|I{•——» This is a List of Animals «——•}I|</h1>
- </style>
-
- </style>
 <ol>
 <li>🐎Horse🐎</li>
   <li> 🐱Lion🐱  </li>
@@ -82,7 +157,7 @@ Click me to display Date and Time.</button>
 
 </video>
       <hr/>
-      <h1 class="header1">ENDE👋</h1>
+      <h1 class="header1">The End👋</h1>
       <h1 class="header1">THANKS 💙</h1>
       <h1 class="header1">Othman Mohamad 👱</h1>
 <hr/>

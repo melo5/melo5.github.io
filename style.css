@@ -18,7 +18,9 @@ header, footer {
     background-color: #cccccc;
   }
 
-
+.schoolinfo {
+  display: none;
+}
 
 
 
