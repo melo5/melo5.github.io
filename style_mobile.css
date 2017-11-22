@@ -1,0 +1,61 @@
+<style>
+
+div.container {
+    width: 50%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+}
+
+  body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+font-family: 'Lobster', cursive;
+     }
+
+.schoolinfo {
+  display: none;
+}
+
+
+
+  p,li, td,tr {
+
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+font-family: 'Philosopher', sans-serif;
+ }
+
+ th {
+   color: green;
+   font-weight: bold;
+   font-size: 18px;
+
+ }
+
+ a {
+   color: red;
+   font-weight: bold;
+   font-size: 15px;
+ }
+
+ .header1 {
+    color: white;
+ }
+
+ .header2 {
+   color: blue;
+ }
+
+ .table {
+   width: 100%;
+ }
+</style>
