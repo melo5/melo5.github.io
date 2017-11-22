@@ -11,12 +11,14 @@ header, footer {
     background-color: black;
     clear: left;
     text-align: center;
+    font-family: 'Jockey One', sans-serif;
 }
 
   body {
     background-image: url("Ebackground.jpg");
     background-color: #cccccc;
-  }
+font-family: 'Lobster', cursive;
+     }
 
 .schoolinfo {
   display: none;
@@ -29,7 +31,7 @@ header, footer {
    color: black;
    font-weight: bold;
    font-size: 28px;
-
+font-family: 'Philosopher', sans-serif;
  }
 
  th {
