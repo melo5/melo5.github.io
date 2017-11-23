@@ -5,6 +5,14 @@ div.container {
     border: 1px solid gray;
 }
 
+div#img_los1 {
+  background-image: url("los1.png");
+  background-repeat: no-repeat;
+  width: 1317px;
+  height: 200px;
+
+}
+
 header, footer {
     padding: 1em;
     color: white;
